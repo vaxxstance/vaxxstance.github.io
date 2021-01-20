@@ -20,10 +20,10 @@
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-		<a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
-		<a href="https://vaxxstance.github.io/#task" class="btn">Task Description</a>
-		<a href="https://vaxxstance.github.io/#datasets" class="btn">Datasets</a>
-		<a href="https://vaxxstance.github.io/#results" class="btn">Results</a>
+		<a href="{{ site.github.repository_url }}" class="button"><span>GitHub</span></a>
+		<a href="https://vaxxstance.github.io/#task" class="button">Task Description</a>
+		<a href="https://vaxxstance.github.io/#datasets" class="button">Datasets</a>
+		<a href="https://vaxxstance.github.io/#results" class="button">Results</a>
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
