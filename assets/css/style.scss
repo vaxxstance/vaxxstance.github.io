@@ -2,10 +2,11 @@
 ---
 
 @import"{{ site.theme }}";
-
-@import "{{ site.theme }}";
 .main-content {
   h2 {
+   color: #ff0000;
+ }
+  h3 {
    color: #ff0000;
  }
 }
