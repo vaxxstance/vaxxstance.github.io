@@ -38,8 +38,6 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 ### Results
 
-### Contact
-
 ### References
 
 Alessandra Teresa Cignarella, Mirko Lai, Cristina Bosco, Viviana Patti, and Paolo Rosso. 2020. Overview of the EVALITA 2020 Task on Stance Detection in Italian Tweets (SardiStance). In Valerio Basile, Danilo Croce, Maria Di Maro, and Lucia C. Passaro, editors, EVALITA 2020. CEUR-WS.org.
@@ -60,5 +58,5 @@ Zotova, E. Agerri, R., Rigau, G, 2021. [Semi-automatic generation of multilingua
 
 ### Organizers
 
-
+### Contact
 
