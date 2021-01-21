@@ -20,9 +20,13 @@ As the task contains tweets in two different languages, we would like to propose
 
 Additionally, and inspired by the recently held SardiStance 2020 shared task (Cignarella et al. 2020), the Close Track will include **two evaluation settings per language**: *Textual* and *Contextual*. Furthermore, the **Open and Zero-shot tracks** will include only **one evaluation setting per language**, one for Spanish and one for Basque.
 
-**Participation**: Participants *can submit their systems to any of the tracks*, but **it will be compulsory to participate in both languages for the chosen track**. Therefore, if a team only takes part in the **Close Track** then that team would have to submit runs for **both Basque and Spanish in each evaluation setting, Textual and Contextual**. 
+### Participation rule
 
-Similarly, to participate in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
+Participants *can submit their systems to any of the tracks*, but **it will be compulsory to participate in both languages for the chosen track**.
+
++ Example 1: If a team only takes part in the **Close Track** then that team would have to submit runs for **both Basque and Spanish in each evaluation setting, Textual and Contextual**. 
+
++ Example 2.: If a team articipates in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
 
 ### References
 
