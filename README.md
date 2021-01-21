@@ -96,3 +96,4 @@ Zotova, E. Agerri, R., Rigau, G, 2021. [Semi-automatic generation of multilingua
 
 ### Contact
 
+Questions to the organizers about the shared task will be managed through the [Discussion Website](https://github.com/vaxxstance/vaxxstance.github.io/discussions).
