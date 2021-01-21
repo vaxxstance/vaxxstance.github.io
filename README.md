@@ -32,11 +32,41 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 ### Important Dates
 
+The tentative schedule of the task is as follows:
+
++ **March 15**: Training sets, evaluation script and annotation guidelines.
+<!--- + **April 1**: Development sets. --->
++ **April 30**: Test sets released.
++ **May 24**: Official date for submissions of system runs.
++ **May 28**: Publication of official results and gold standard test annotations.
++ **June 15**: Paper submission.
++ **June 22**: Notification of acceptance (peer-reviews).
++ **June 30**: Camera-ready paper.
++ **September**: VaxxStance@IberLEF 2021.
+
+
 ### Datasets
+
+TBA
+
++ **Training**: March 15.
++ **Test**: April 30. 
 
 ### Evaluation
 
+Following previous work tasks already mentioned on stance detection, we will evaluate systems with the metric provided by the SemEval 2016 task on Stance Detection (Mohammad et al., 2016) which reports **F1 macro-average score of two classes: FAVOR and AGAINST**, although the NONE class is also represented in the test data: 
+
+![]({{ vaxxstance.github.io }}/images/metric.png) 
+
+The official metric will evaluate systems taking into account both languages and topics, for each of the tracks and evaluation settings, namely, **for each track we will provide a global score**. This means that participants should aim to perform equally well across languages. Furthermore, we will provide individual scores per language for each track (and for each evaluation setting in the Close Track).
+
+Therefore, **for official results of every track and evaluation setting participants should include predictions for both languages (Basque and Spanish)**.
+
+<!--- We are planning to use the Codalab platform to manage submission and publication of evaluation results. --->
+
 ### Results
+
+TBA, 28th of May 2021.
 
 ### References
 
@@ -57,6 +87,12 @@ Zotova, E., Agerri, R., Nuñez, M., Rigau, G., 2020. [Multilingual Stance Detect
 Zotova, E. Agerri, R., Rigau, G, 2021. [Semi-automatic generation of multilingual datasets for stance detection in Twitter](https://authors.elsevier.com/a/1cOaa_LnESXY5N). Expert Systems with Applications, 170 (2021).[Preprint] ()[https://doi.org/10.1016/j.eswa.2020.114547](https://doi.org/10.1016/j.eswa.2020.114547)
 
 ### Organizers
+
++ [Rodrigo Agerri](https://ragerri.github.io/), [HiTZ Center - Ixa](http://www.hitz.eus/), University of the Basque Country UPV/EHU.
++ [Roberto Centeno](http://nlp.uned.es/~rcenteno/), [UNED Research Group in Natural Language Processing and Information Retrieval](https://sites.google.com/view/nlp-uned/home), UNED.
++ María Espinosa, [UNED Research Group in Natural Language Processing and Information Retrieval](https://sites.google.com/view/nlp-uned/home), UNED.
++ Joseba Fernandez de Landa,  [HiTZ Center - Ixa](http://www.hitz.eus/), University of the Basque Country UPV/EHU.
++ [Alvaro Rodrigo](http://nlp.uned.es/~alvarory),  [UNED Research Group in Natural Language Processing and Information Retrieval](https://sites.google.com/view/nlp-uned/home), UNED.
 
 ### Contact
 
