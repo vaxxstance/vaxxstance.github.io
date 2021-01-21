@@ -4,7 +4,7 @@ The VaxxStance shared task is part of IberLEF 2021, the [3rd Workshop on Iberian
 
 ### Task Description
 
-The aim of VaxxStance@IberLEF 2021 is to detect stance in social media on a very controversial and trendy topic, namely, the Antivaxxers movement, in two languages: **Basque** and **Spanish**. Following previous tasks (Mohammad et al. 2016, Taule et al. 2018, Cignarella et al. 2020), the aim is determining whether a given tweet expresses an AGAINST, FAVOR or NEUTRAL (NONE) stance towards a previously defined topic.
+The aim of VaxxStance@IberLEF 2021 is to detect stance in social media on a very controversial and trendy topic, namely, the Antivaxxers movement, in two languages: **Basque** and **Spanish**. Following previous tasks (Mohammad et al. 2016, Taule et al. 2018, Cignarella et al. 2020), the aim is to determine whether a given tweet expresses an AGAINST, FAVOR or NEUTRAL (NONE) stance towards a previously defined topic.
 
 In the two examples given below, the tweet on the left expresses a FAVOR stance towards vaccines whereas the one on the right conveys an AGAINST stance.
 
@@ -30,6 +30,16 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 + **Example 2**: If a team articipates in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
 
+### Important Dates
+
+### Datasets
+
+### Evaluation
+
+### Results
+
+### Contact
+
 ### References
 
 Alessandra Teresa Cignarella, Mirko Lai, Cristina Bosco, Viviana Patti, and Paolo Rosso. 2020. Overview of the EVALITA 2020 Task on Stance Detection in Italian Tweets (SardiStance). In Valerio Basile, Danilo Croce, Maria Di Maro, and Lucia C. Passaro, editors, EVALITA 2020. CEUR-WS.org.
@@ -47,4 +57,8 @@ Taulé, M., Rangel, F., Martí, M.A., Rosso, P., 2018. Overview of the task on m
 Zotova, E., Agerri, R., Nuñez, M., Rigau, G., 2020. [Multilingual Stance Detection in Tweets: The Catalonia Independence Corpus](https://www.aclweb.org/anthology/2020.lrec-1.171.pdf). In LREC 2020.
 
 Zotova, E. Agerri, R., Rigau, G, 2021. [Semi-automatic generation of multilingual datasets for stance detection in Twitter](https://authors.elsevier.com/a/1cOaa_LnESXY5N). Expert Systems with Applications, 170 (2021).[Preprint] ()[https://doi.org/10.1016/j.eswa.2020.114547](https://doi.org/10.1016/j.eswa.2020.114547)
+
+### Organizers
+
+
 
