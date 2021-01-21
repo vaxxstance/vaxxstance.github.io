@@ -8,7 +8,9 @@ The aim of VaxxStance@IberLEF 2021 is to detect stance in social media on a very
 
 In the two examples given below, the tweet on the left expresses a FAVOR stance towards vaccines whereas the one on the right conveys an AGAINST stance.
 
-![]({{ vaxxstance.github.io }}/images/eu-example.png) ![]({{ vaxxstance.github.io }}/images/es-example.png)
+![]({{ vaxxstance.github.io }}/images/examples.png) 
+
+<!--- ![]({{ vaxxstance.github.io }}/images/es-example.png) --->
 
 As the task contains tweets in two different languages, we would like to propose the following participation tracks for each language (Basque and Spanish):
 
@@ -20,15 +22,19 @@ As the task contains tweets in two different languages, we would like to propose
 
 Additionally, and inspired by the recently held SardiStance 2020 shared task (Cignarella et al. 2020), the Close Track will include **two evaluation settings per language**: *Textual* and *Contextual*. Furthermore, the **Open and Zero-shot tracks** will include only **one evaluation setting per language**, one for Spanish and one for Basque.
 
-**Participation**: Participants *can submit their systems to any of the tracks*, but **it will be compulsory to participate in both languages for the chosen track**. Therefore, if a team only takes part in the **Close Track** then that team would have to submit runs for **both Basque and Spanish in each evaluation setting, Textual and Contextual**. 
+### Participation Rules
 
-Similarly, to participate in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
+Participants *can submit their systems to any of the tracks*, but **it will be compulsory to participate in both languages for the chosen track**.
+
++ **Example 1**: If a team only takes part in the **Close Track** then that team would have to submit runs for **both Basque and Spanish in each evaluation setting, Textual and Contextual**. 
+
++ **Example 2**: If a team articipates in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
 
 ### References
 
 Alessandra Teresa Cignarella, Mirko Lai, Cristina Bosco, Viviana Patti, and Paolo Rosso. 2020. Overview of the EVALITA 2020 Task on Stance Detection in Italian Tweets (SardiStance). In Valerio Basile, Danilo Croce, Maria Di Maro, and Lucia C. Passaro, editors, EVALITA 2020. CEUR-WS.org.
 
-María S. Espinosa, Rodrigo Agerri, Alvaro Rodrigo and Roberto Centeno. DeepReading @ SardiStance: Combining Textual, Social and Emotional Features. In Valerio Basile, Danilo Croce, Maria Di Maro, and Lucia C. Passaro, editors, EVALITA 2020. CEUR-WS.org.
+María S. Espinosa, Rodrigo Agerri, Alvaro Rodrigo and Roberto Centeno.[DeepReading@SardiStance:Combining Textual, Social and Emotional Features](http://ceur-ws.org/Vol-2765/paper120.pdf). Proceedings of the Seventh Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2020).
 
 Joulin, A., Grave, E., Bojanowski, P., Mikolov, T., 2017. Bag of tricks for efficient text classification. In EACL 2017.
 
