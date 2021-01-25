@@ -30,6 +30,10 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 + **Example 2**: If a team articipates in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
 
+
+Furthermore, **each team can submit two runs per evaluation setting and language**. Thus, if a team participates in all 4 evaluation settings, then for each language it could submit 8 runs (2 Close-Textual, 2 Close-Contextual, 2 Open Track and 2 Zero-shot Track), namely, a total of 16 runs.
+
+
 ### Important Dates
 
 The tentative schedule of the task is as follows:
