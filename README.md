@@ -2,6 +2,8 @@
 
 The VaxxStance shared task is part of IberLEF 2021, the [3rd Workshop on Iberian Languages Evaluation Forum](https://sites.google.com/view/iberlef2021), co-located with the SEPLN Conference, which will be held in September 2021 in XXXXX, Spain.
 
+[REGISTRATION NOW AVAILABLE!!](https://competitions.codalab.org/competitions/29889)
+
 ### Task Description
 
 The aim of VaxxStance@IberLEF 2021 is to detect stance in social media on a very controversial and trendy topic, namely, the Antivaxxers movement, in two languages: **Basque** and **Spanish**. Following previous tasks (Mohammad et al. 2016, Taule et al. 2018, Cignarella et al. 2020), the aim is to determine whether a given tweet expresses an AGAINST, FAVOR or NEUTRAL (NONE) stance towards a previously defined topic.
@@ -30,7 +32,6 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 + **Example 2**: If a team articipates in the **Zero-shot** or **Open tracks** then runs must be submitted for **both Basque and Spanish** languages.
 
-
 Furthermore, **each team can submit two runs per evaluation setting and language**. Thus, if a team participates in all 4 evaluation settings, then for each language it could submit 8 runs (2 Close-Textual, 2 Close-Contextual, 2 Open Track and 2 Zero-shot Track), namely, a total of 16 runs.
 
 
@@ -51,7 +52,7 @@ The tentative schedule of the task is as follows:
 
 ### Datasets
 
-TBA
+You need to register in order to be able to download the datasets: [REGISTER HERE](https://competitions.codalab.org/competitions/29889)
 
 + **Training**: March 15.
 + **Test**: April 30. 
