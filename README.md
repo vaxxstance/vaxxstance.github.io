@@ -66,7 +66,7 @@ We provide two baselines:
 
 | Basque | Spanish |
 | --------------------------------- |
-| AGAINST | FAVOR | AGAINST | FAVOR |
+|| AGAINST | FAVOR | AGAINST | FAVOR |
 | --------------------------------- |
 | Textual | 64.92 | 66.76 | 69.46 | 80.37 |
 | Social  | 46.30 | 39.30 | 82.20 | 72.40 |
