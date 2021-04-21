@@ -18,7 +18,7 @@ As the task contains tweets in two different languages, we would like to propose
 
 1. **Close Track**: Language-specific evaluation. Only the provided data for each of the languages is allowed. There are two evaluation settings:
     1. **Textual**: Only provided tweets in the target language can be used for development.
-    2. **Contextual**: Text plus given Twitter-related information will be used by the participants. Contextual information refers to features related with user-based Twitter information: friends, retweets, followers, replies, etc. (Cignarella et al. 2020).
+    2. **Contextual**: Text plus given Twitter-related information will be used by the participants. Contextual information refers to features related with user-based Twitter information: friends, retweets, etc. (Cignarella et al. 2020).
 2. **Open Track**: Participants can use any kind of data. The main objective consists of exploring data augmentation and knowledge transfer techniques for cross-lingual stance detection.
 3. **Zero-shot Track**: Texts (tweets) of the target language cannot be used for training. The main objective is to explore how to develop systems that do not have access to text in the target language, especially using Twitter-related information.
 
@@ -40,7 +40,6 @@ Furthermore, **each team can submit two runs per evaluation setting and language
 The tentative schedule of the task is as follows:
 
 + **March 15**: Training sets, evaluation script and annotation guidelines.
-<!--- + **April 1**: Development sets. --->
 + **April 30**: Test sets released.
 + **May 24**: Official date for submissions of system runs.
 + **May 28**: Publication of official results and gold standard test annotations.
