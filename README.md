@@ -75,7 +75,7 @@ We provide two baselines using the training set only (for the time being):
         <td>AGAINST</td>
         <td>FAVOR</td>
         <td>AGAINST</td>
-        <td>FAVOR</>
+        <td>FAVOR</td>
     </tr>
     <tr>
         <th>Textual</th>
