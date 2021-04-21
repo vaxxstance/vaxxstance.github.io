@@ -60,8 +60,8 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 
 We provide two baselines: 
 
-+ **Textual**: based on SVM with TF-IDF for document representation with grid search. [[Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)]
-+ **Social**: using only social network features (user and tweet information). [[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)]
++ **Textual**: based on SVM with TF-IDF for document representation with grid search. [Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)
++ **Social**: using only social network features (user and tweet information). [Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)
 
 
 <table>
