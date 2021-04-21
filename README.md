@@ -60,26 +60,41 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 
 We provide two baselines: 
 
-+ **Textual**: based on SVM with TF-IDF for document representation with grid search.
-+ **Social**: using only social network features (user and tweet information).
++ **Textual**: based on SVM with TF-IDF for document representation with grid search. [[Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)]
++ **Social**: using only social network features (user and tweet information). [[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)]
 
 
 <table>
-  <tr>
-    <td colspan=2> Basque </td>
-    <td colspan=2> Spanish </td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
+    <tr>
+        <th colspan=5>Baselines using training data</th>
+    </tr>
+    <tr>
+        <td> </td>
+        <th colspan=2>Basque</th>
+        <th colspan=2>Spanish</th>
+    </tr>
+    <tr>
+        <th>System</th>
+        <td>AGAINST</td>
+        <td>FAVOR</td>
+        <td>AGAINST</td>
+        <td>FAVOR</>
+    </tr>
+    <tr>
+        <th>Textual</th>
+        <td> 64.92 </td>
+        <td> 66.76 </td> 
+        <td> 69.46 </td>
+        <td> 80.37 </td>
+    </tr>
+    <tr>
+        <th>Social</th>
+        <td> 46.30 </td>
+        <td> 39.30 </td>
+        <td> 82.20 </td>
+        <td> 72.40 </td>
+    </tr>
 </table>
-
-|| <td colspan=2>Basque <td colspan=2>Spanish |
-| --------------------------------- |
-| System | AGAINST | FAVOR | AGAINST | FAVOR |
-| --------------------------------- |
-| Textual | 64.92 | 66.76 | 69.46 | 80.37 |
-| Social  | 46.30 | 39.30 | 82.20 | 72.40 |
 
 
 ### Evaluation
