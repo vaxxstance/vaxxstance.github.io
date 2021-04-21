@@ -74,7 +74,7 @@ We provide two baselines:
   </tr>
 </table>
 
-|| Basque <td colspan=2> | Spanish <td colspan=2> |
+|| <td colspan=2>Basque <td colspan=2>Spanish |
 | --------------------------------- |
 | System | AGAINST | FAVOR | AGAINST | FAVOR |
 | --------------------------------- |
