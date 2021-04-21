@@ -63,12 +63,14 @@ We provide two baselines:
 + **Textual**: based on SVM with TF-IDF for document representation with grid search.
 + **Social**: using only social network features (user and tweet information).
 
+
 | Basque | Spanish |
 | --------------------------------- |
 | AGAINST | FAVOR | AGAINST | FAVOR |
 | --------------------------------- |
-Textual | 64.92 | 66.76 | 69.46 | 80.37 |
-Social  | 46.30 | 39.30 | 82.20 | 72.40 |
+| Textual | 64.92 | 66.76 | 69.46 | 80.37 |
+| Social  | 46.30 | 39.30 | 82.20 | 72.40 |
+
 
 ### Evaluation
 
