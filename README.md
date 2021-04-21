@@ -58,19 +58,13 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 
 #### Baselines
 
-We provide two baselines: 
-[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)
+We provide two baselines:
 
-+ **Textual**: based on SVM with TF-IDF for document representation with grid search. [Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)
-+ **Social**: using only social network features (user and tweet information). 
-
-
++ **Textual**: based on SVM with TF-IDF for document representation with grid search. [[Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)]
++ **Social**: using only social network features (user and tweet information). [[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)]
 
 
 <table>
-    <tr>
-        <th colspan=5>Baselines using training data</th>
-    </tr>
     <tr>
         <td> </td>
         <th colspan=2>Basque</th>
@@ -98,6 +92,7 @@ We provide two baselines:
         <td>72.40</td>
     </tr>
 </table>
+
 
 ### Evaluation
 
