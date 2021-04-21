@@ -58,7 +58,7 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 
 #### Baselines
 
-We provide two baselines:
+We provide two baselines using the training set only (for the time being):
 
 + **Textual**: based on SVM with TF-IDF for document representation with grid search. [[Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)]
 + **Social**: using only social network features (user and tweet information). [[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)]
