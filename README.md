@@ -59,9 +59,12 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 #### Baselines
 
 We provide two baselines: 
+[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)
 
 + **Textual**: based on SVM with TF-IDF for document representation with grid search. [Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)
-+ **Social**: using only social network features (user and tweet information). [Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)
++ **Social**: using only social network features (user and tweet information). 
+
+
 
 
 <table>
@@ -82,20 +85,19 @@ We provide two baselines:
     </tr>
     <tr>
         <th>Textual</th>
-        <td> 64.92 </td>
-        <td> 66.76 </td> 
-        <td> 69.46 </td>
-        <td> 80.37 </td>
+        <td>64.92</td>
+        <td>66.76</td> 
+        <td>69.46</td>
+        <td>80.37</td>
     </tr>
     <tr>
         <th>Social</th>
-        <td> 46.30 </td>
-        <td> 39.30 </td>
-        <td> 82.20 </td>
-        <td> 72.40 </td>
+        <td>46.30</td>
+        <td>39.30</td>
+        <td>82.20</td>
+        <td>72.40</td>
     </tr>
 </table>
-
 
 ### Evaluation
 
