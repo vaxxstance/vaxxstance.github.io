@@ -64,9 +64,19 @@ We provide two baselines:
 + **Social**: using only social network features (user and tweet information).
 
 
-| Basque | Spanish |
+<table>
+  <tr>
+    <td colspan=2> Basque </td>
+    <td colspan=2> Spanish </td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
+|| Basque <td colspan=2> | Spanish <td colspan=2> |
 | --------------------------------- |
-|| AGAINST | FAVOR | AGAINST | FAVOR |
+| System | AGAINST | FAVOR | AGAINST | FAVOR |
 | --------------------------------- |
 | Textual | 64.92 | 66.76 | 69.46 | 80.37 |
 | Social  | 46.30 | 39.30 | 82.20 | 72.40 |
