@@ -56,6 +56,20 @@ You need to register in order to be able to download the datasets: [REGISTER HER
 + **Training**: March 15.
 + **Test**: April 30. 
 
+#### Baselines
+
+We provide two baselines: 
+
++ **Textual**: based on SVM with TF-IDF for document representation with grid search.
++ **Social**: using only social network features (user and tweet information).
+
+| Basque | Spanish |
+| --------------------------------- |
+| AGAINST | FAVOR | AGAINST | FAVOR |
+| --------------------------------- |
+Textual | 64.92 | 66.76 | 69.46 | 80.37 |
+Social  | 46.30 | 39.30 | 82.20 | 72.40 |
+
 ### Evaluation
 
 Following previous work tasks already mentioned on stance detection, we will evaluate systems with the metric provided by the SemEval 2016 task on Stance Detection (Mohammad et al., 2016) which reports **F1 macro-average score of two classes: FAVOR and AGAINST**, although the NONE class is also represented in the test data: 
