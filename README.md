@@ -55,7 +55,9 @@ For example:
 
 + 1365339585023197189,97939627,Igandean txertoa jasoko dut,FAVOR
 
-**IMPORTANT**: All runs by a team must be included in a zip archive with the name **team-name_vaxxstance_runs.zip**.
+**IMPORTANT**: All runs by a team must be included in a zip archive with the name **team-name_vaxxstance_runs.zip** and submitted via Codalab by clicking on the button below:
+
+[SUBMIT YOUR RUNS](https://competitions.codalab.org/competitions/29889#participate-submit_results)
 
 ### Dates
 
