@@ -2,7 +2,7 @@
 
 The VaxxStance shared task is part of IberLEF 2021, the [3rd Workshop on Iberian Languages Evaluation Forum](https://sites.google.com/view/iberlef2021), co-located with the SEPLN Conference, which will be held in September 2021 in XXXXX, Spain.
 
-[REGISTRATION NOW AVAILABLE!!](https://competitions.codalab.org/competitions/29889)
+[REGISTRATION](https://competitions.codalab.org/competitions/29889)
 
 ### Task Description
 
@@ -34,8 +34,30 @@ Participants *can submit their systems to any of the tracks*, but **it will be c
 
 Furthermore, **each team can submit two runs per evaluation setting and language**. Thus, if a team participates in all 4 evaluation settings, then for each language it could submit 8 runs (2 Close-Textual, 2 Close-Contextual, 2 Open Track and 2 Zero-shot Track), namely, a total of 16 runs.
 
+#### Runs Submission
 
-### Important Dates
+Based on the participation rules above, participants must submit their runs in files following this **file name nomenclature**:
+
++ **team-name_track_language_run.csv**
+
+For example: 
+
++ **DeepReading_Close-Textual-track_eu_01.csv** means that this is the run number 01 submitted by the team DeepReading for the Close-textual track in Basque.
++ **DeepReading_Zero-Shot-track_es_02.csv**: run number 02 by team DeepReading to the Zero-shot track for Spanish.
+
+The content of the submission files will have the following format, namely, a CSV file containing 4 elements per row:
+
++ **tweet_id,user_id,text,label**
+
+This means that participants will need to add the **Stance label prediction** to the original **eu_test.csv** and **es_test.csv** sets distributed by the organizers, including the header.
+
+For example:
+
++ 1365339585023197189,97939627,Igandean txertoa jasoko dut,FAVOR
+
+**IMPORTANT**: All runs by a team must be included in a zip archive with the name **team-name_vaxxstance_runs.zip**.
+
+### Dates
 
 The tentative schedule of the task is as follows:
 
