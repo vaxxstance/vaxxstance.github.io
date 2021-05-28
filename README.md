@@ -132,8 +132,15 @@ Therefore, **for official results of every track and evaluation setting particip
 
 ### Results
 
+Here are the official results per track. We will shortly publish an overall ranking and the baseline results.
+
+#### Close Track (Textual and Contextual)
+
 ![]({{ vaxxstance.github.io }}/images/close-track.png)
 
+#### Open and Zero-shot Tracks
+
+![]({{ vaxxstance.github.io }}/images/open-track.png)
 
 ### References
 
