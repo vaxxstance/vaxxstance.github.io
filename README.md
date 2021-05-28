@@ -132,7 +132,8 @@ Therefore, **for official results of every track and evaluation setting particip
 
 ### Results
 
-TBA, 28th of May 2021.
+![]({{ vaxxstance.github.io }}/images/close-track.png)
+
 
 ### References
 
