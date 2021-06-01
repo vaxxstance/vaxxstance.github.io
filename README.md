@@ -2,7 +2,7 @@
 
 The VaxxStance shared task is part of IberLEF 2021, the [3rd Workshop on Iberian Languages Evaluation Forum](https://sites.google.com/view/iberlef2021), co-located with the SEPLN Conference, which will be held in September 2021 in XXXXX, Spain.
 
-[REGISTRATION](https://competitions.codalab.org/competitions/29889)
+<!--- [REGISTRATION](https://competitions.codalab.org/competitions/29889) --->
 
 ### Task Description
 
@@ -10,9 +10,7 @@ The aim of VaxxStance@IberLEF 2021 is to detect stance in social media on a very
 
 In the two examples given below, the tweet on the left expresses a FAVOR stance towards vaccines whereas the one on the right conveys an AGAINST stance.
 
-![]({{ vaxxstance.github.io }}/images/examples.png) 
-
-<!--- ![]({{ vaxxstance.github.io }}/images/es-example.png) --->
+![]({{ vaxxstance.github.io }}/images/examples.png)
 
 As the task contains tweets in two different languages, we would like to propose the following participation tracks for each language (Basque and Spanish):
 
@@ -23,6 +21,10 @@ As the task contains tweets in two different languages, we would like to propose
 3. **Zero-shot Track**: Texts (tweets) of the target language cannot be used for training. The main objective is to explore how to develop systems that do not have access to text in the target language, especially using Twitter-related information.
 
 Additionally, and inspired by the recently held SardiStance 2020 shared task (Cignarella et al. 2020), the Close Track will include **two evaluation settings per language**: *Textual* and *Contextual*. Furthermore, the **Open and Zero-shot tracks** will include only **one evaluation setting per language**, one for Spanish and one for Basque.
+
+### Datasets
+
+Train and test datasets are publicly available: [VaxxStance 2021 Datasets](https://github.com/vaxxstance/vaxxstance.github.io/raw/main/vaxxstance2021.tar.gz)
 
 ### Participation Rules
 
@@ -73,16 +75,21 @@ The tentative schedule of the task is as follows:
 + **September**: VaxxStance@IberLEF 2021.
 
 
-### Datasets
+### Evaluation
 
-You need to register in order to be able to download the datasets: [REGISTER HERE](https://competitions.codalab.org/competitions/29889)
+Following previous work tasks already mentioned on stance detection, we will evaluate systems with the metric provided by the SemEval 2016 task on Stance Detection (Mohammad et al., 2016) which reports **F1 macro-average score of two classes: FAVOR and AGAINST**, although the NONE class is also represented in the test data: 
 
-+ **Training**: March 15.
-+ **Test**: April 30. 
+![]({{ vaxxstance.github.io }}/images/metric.png) 
+
+The official metric will evaluate systems taking into account both languages and topics, for each of the tracks and evaluation settings, namely, **for each track we will provide a global score**. This means that participants should aim to perform equally well across languages. Furthermore, we will provide individual scores per language for each track (and for each evaluation setting in the Close Track).
+
+Therefore, **for official results of every track and evaluation setting participants should include predictions for both languages (Basque and Spanish)**.
+
+<!--- We are planning to use the Codalab platform to manage submission and publication of evaluation results. --->
 
 #### Baselines
 
-We provide two baselines using the training set only (for the time being):
+We provide two baselines using the training set:
 
 + **Textual**: based on SVM with TF-IDF for document representation with grid search. [[Get textual baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/svm_tfidf_textual_baseline.py)]
 + **Social**: using only social network features (user and tweet information). [[Get social baseline](https://github.com/vaxxstance/vaxxstance.github.io/blob/main/social_features_baseline_vaxxstance.ipynb)]
@@ -116,19 +123,6 @@ We provide two baselines using the training set only (for the time being):
         <td>72.40</td>
     </tr>
 </table>
-
-
-### Evaluation
-
-Following previous work tasks already mentioned on stance detection, we will evaluate systems with the metric provided by the SemEval 2016 task on Stance Detection (Mohammad et al., 2016) which reports **F1 macro-average score of two classes: FAVOR and AGAINST**, although the NONE class is also represented in the test data: 
-
-![]({{ vaxxstance.github.io }}/images/metric.png) 
-
-The official metric will evaluate systems taking into account both languages and topics, for each of the tracks and evaluation settings, namely, **for each track we will provide a global score**. This means that participants should aim to perform equally well across languages. Furthermore, we will provide individual scores per language for each track (and for each evaluation setting in the Close Track).
-
-Therefore, **for official results of every track and evaluation setting participants should include predictions for both languages (Basque and Spanish)**.
-
-<!--- We are planning to use the Codalab platform to manage submission and publication of evaluation results. --->
 
 ### Results
 
