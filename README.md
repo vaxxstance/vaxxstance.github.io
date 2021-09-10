@@ -26,6 +26,12 @@ Additionally, and inspired by the recently held SardiStance 2020 shared task (Ci
 
 Train and test datasets are publicly available: [VaxxStance 2021 Datasets](https://github.com/vaxxstance/vaxxstance.github.io/raw/main/vaxxstance2021.tar.gz)
 
+
+**Citation**: If you use the dataset please cite the following paper:
+	
+	Rodrigo Agerri, Roberto Centeno, María Espinosa, Joseba Fernández de Landa, Álvaro Rodrigo (2021). [VaxxStance@IberLEF 2021: Overview of the Task on Going Beyond Text in Cross-Lingual Stance Detection](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6387/3807). Procesamiento del Lenguaje Natural, 67, pp 173-181.
+
+
 ### Participation Rules
 
 Participants *can submit their systems to any of the tracks*, but **it will be compulsory to participate in both languages for the chosen track**.
